@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&display=swap");
+
+.navbar {
+  object-fit: cover;
+  width: 100%;
+  background-color: #1e2120;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-family: "Fira Code", monospace;
+}
+.nome {
+  margin-left: 127px;
+  font-size: 35px;
+  color: #fff;
+}
+.ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  float: right;
+  margin-left: 590px;
+  text-decoration: none;
+}
+
+.nav1 {
+  margin: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.nav1::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #2fac54;
+  transition: width 0.3s;
+}
+.nav1:hover::after {
+  transition: width 0.3s;
+  width: 100%;
+}
+.nav2 {
+  margin: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.nav2::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #2fac54;
+  transition: width 0.3s;
+}
+.nav2:hover::after {
+  transition: width 0.3s;
+  width: 100%;
+}
+.nav3 {
+  cursor: pointer;
+  color: #fff;
+}
+.nav3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #2fac54;
+  transition: width 0.3s;
+}
+.nav3:hover::after {
+  transition: width 0.3s;
+  width: 100%;
+}
+.ham {
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  .ul {
+    margin-left: 350px;
+  }
+  .ham {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .nome{
+    margin-left: 500px;
+  }
+  .ul {
+    margin-left: 790px;
+  }
+  .ham {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .nome {
+    font-size: 12px;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  .ul {
+    display: none;
+  }
+  .navbar {
+    object-fit: cover;
+    width: 100vh;
+    background-color: #1e2120;
+  }
+}
+@media screen and (max-width: 640px) {
+  .navbar {
+    object-fit: cover;
+    width: 60vh;
+    background-color: #1e2120;
+  }
+  .nome {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+    display: flex;
+  }
+  .ul {
+    display: none;
+  }
+}

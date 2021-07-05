@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&display=swap");
+
+.header {
+  height: 800px;
+  width: 100%;
+  background-color: #1e2120;
+  display: flex;
+}
+.p {
+  font-family: "Fira Code", monospace;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 358px;
+  margin-left: 127px;
+}
+.bu {
+  display: flex;
+  align-items: center;
+  font-family: "Fira Code", monospace;
+  font-size: 25px;
+  width: 302px;
+  height: 59px;
+  margin-left: 127px;
+  cursor: pointer;
+  margin-top: 43px;
+  background-color: #2fac54;
+  border-radius: 25px;
+  border-style: none;
+  transition: transform 0.2s;
+}
+.bu:hover {
+  background-color: #359953;
+}
+.bu:focus {
+  outline: none;
+  box-shadow: none;
+}
+.bu:active {
+  transform: scale(1.1);
+}
+.link1 {
+  display: flex;
+  width: 28px;
+  height: 26px;
+  align-items: center;
+  margin-left: 55px;
+  margin-right: 13px;
+}
+
+@media screen and (min-width: 360px) {
+  .p {
+    margin-top: 200px;
+    margin-left: 27px;
+    font-size: 20px;
+  }
+  .h1k {
+    font-size: 45px;
+  }
+  .bu {
+    width: 230px;
+    margin-left: 90px;
+  }
+  .link1 {
+    margin-left: 35px;
+  }
+  .header {
+    height: 800px;
+    width: 60vh;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .p {
+    font-family: "Fira Code", monospace;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 358px;
+    margin-left: 127px;
+  }
+  .bu {
+    display: flex;
+    align-items: center;
+    font-family: "Fira Code", monospace;
+    font-size: 25px;
+    width: 302px;
+    height: 59px;
+    margin-left: 127px;
+  }
+  .link1 {
+    margin-left: 70px;
+  }
+  .header {
+    height: 800px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .bu {
+    display: flex;
+    align-items: center;
+    font-family: "Fira Code", monospace;
+    font-size: 25px;
+    width: 302px;
+    height: 59px;
+    margin-left: 500px;
+  }
+  .link1 {
+    margin-left: 70px;
+  }
+  .header {
+    height: 800px;
+    width: 100%;
+  }
+  .p{
+    margin-left: 500px;
+  }
+}

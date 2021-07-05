@@ -1,0 +1,72 @@
+.btnsh {
+  height: 50px;
+  width: 50px;
+  margin-left: 1500px;
+  position: fixed;
+  display: none;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+  transition: transform 0.1s;
+  background-color: #2fac54;
+}
+
+.actv {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin-left: 1500px;
+  position: fixed;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+  transition: transform 0.1s;
+  background-color: #2fac54;
+}
+.actv:focus {
+  outline: none;
+}
+
+.actv:active {
+  transform: scale(1.1);
+}
+.btnsh:focus {
+  outline: none;
+}
+.btnsh:active {
+  transform: scale(1.1);
+}
+
+.tri {
+  width: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  .actv {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: 1190px;
+    position: fixed;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    transition: transform 0.1s;
+    background-color: #2fac54;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .actv {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: 2100px;
+    position: fixed;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    transition: transform 0.1s;
+    background-color: #2fac54;
+  }
+}

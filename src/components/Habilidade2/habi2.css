@@ -1,0 +1,115 @@
+.habi2 {
+  background-color: #494746;
+  display: flex;
+  height: 1920px;
+  width: 60vh;
+  object-fit: cover;
+  font-family: "Fira Code", monospace;
+  color: #ffffff;
+}
+.habii2 {
+  display: flex;
+  font-size: 45px;
+  margin-left: 27px;
+  margin-top: 0px;
+}
+.habili {
+  background-color: #1e2120;
+  width: 290px;
+  height: 250px;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+.habili1 {
+  background-color: #1e2120;
+  width: 290px;
+  height: 250px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.habili2 {
+  background-color: #1e2120;
+  width: 290px;
+  height: 250px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.habili3 {
+  background-color: #1e2120;
+  width: 290px;
+  height: 250px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.habili4 {
+  background-color: #1e2120;
+  width: 290px;
+  height: 250px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.habili5 {
+  background-color: #1e2120;
+  width: 290px;
+  height: 250px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.p1se4 {
+  font-family: "Fira Code", monospace;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+.p1se5 {
+  font-family: "Fira Code", monospace;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+.p1se6 {
+  font-family: "Fira Code", monospace;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+.p1se7 {
+  font-family: "Fira Code", monospace;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+.p1se8 {
+  font-family: "Fira Code", monospace;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+.p1se9 {
+  font-family: "Fira Code", monospace;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+@media screen and (max-width: 640px) {
+  .habi2 {
+    display: block;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .habi2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .habi2 {
+    display: none;
+  }
+}

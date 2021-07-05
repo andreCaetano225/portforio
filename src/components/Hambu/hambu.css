@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&display=swap");
+
+.ham {
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .hul {
+    margin-left: 350px;
+  }
+  .ham {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .hul {
+    margin-left: 590px;
+  }
+  .ham {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .ham {
+    display: flex;
+    height: 150px;
+    background-color: #1e2120;
+    width: 60vh;
+    object-fit: cover;
+    top: 0%;
+    padding: 0%;
+    font-family: "Fira Code", monospace;
+  }
+  .hamv {
+    display: none;
+  }
+  .hamv-act {
+    display: block;
+    background-color: #1e2120;
+    float: right;
+    margin-left: 160px;
+  }
+  .hamv-act:active {
+    transition: all 4s;
+  }
+  .ham1 {
+    position: absolute;
+    font-family: "Fira Code", monospace;
+
+    color: #ffffff;
+    margin-top: -50px;
+    margin-left: 310px;
+  }
+  .hnav {
+    margin-left: 80px;
+    margin-top: 50px;
+    list-style: none;
+  }
+  .hna1 {
+    font-family: "Fira Code", monospace;
+    cursor: pointer;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  .hna1::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #2fac54;
+    transition: width 0.3s;
+  }
+  .hna1:active::after {
+    transition: width 0.3s;
+    width: 100%;
+  }
+  .hna2 {
+    font-family: "Fira Code", monospace;
+    cursor: pointer;
+
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  .hna2::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #2fac54;
+    transition: width 0.3s;
+  }
+  .hna2:active::after {
+    transition: width 0.3s;
+    width: 100%;
+  }
+  .hna3 {
+    font-family: "Fira Code", monospace;
+    cursor: pointer;
+
+    color: #ffffff;
+  }
+  .hna3::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #2fac54;
+    transition: width 0.3s;
+  }
+  .hna3:active::after {
+    transition: width 0.3s;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 640px) {
+  .ham {
+    display: block;
+  }
+  .ham1 {
+    display: flex;
+    position: absolute;
+  }
+  .hul {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .ham {
+    display: none;
+  }
+}
