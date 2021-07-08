@@ -9,6 +9,7 @@ import Hambu from '../Hambu';
 import Final from '../Final';
 import Servicos2 from '../Servicos2';
 import Habilidades2 from '../Habilidade2';
+import {Projeto} from '../Projetos';
 function Home (){
     return(
      <div>
@@ -20,6 +21,7 @@ function Home (){
      <Servicos/>
      <Servicos2/>
      <Habilidade/>
+     <Projeto/>
      <Habilidades2/>
      <Final/>
     </div>

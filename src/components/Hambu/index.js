@@ -16,6 +16,7 @@ function Navbar() {
          <Link to="sob" smooth={true} className="hna1">Sobre mim</Link>
          <Link to="ser" smooth={true} className="hna2">Serviços</Link>
          <Link to="haab1" smooth={true} className="hna3">Habilidades</Link>
+         <Link to="proje" smooth={true} className="hna3">Projetos</Link>
      </ul>
      </nav>
    </div>

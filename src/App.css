@@ -73,6 +73,24 @@
   transition: width 0.3s;
   width: 100%;
 }
+
+.nav4 {
+  cursor: pointer;
+  color: #fff;
+  margin-left: 20px;
+}
+.nav4::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #2fac54;
+  transition: width 0.3s;
+}
+.nav4:hover::after {
+  transition: width 0.3s;
+  width: 100%;
+}
 .ham {
   display: none;
 }
